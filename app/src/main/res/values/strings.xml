@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Bilkent.L!ve</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- these strings are for the navigation drawer-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_lectures">Lectures</string>
+    <string name="title_activity_buses">Buses</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_dinings">Dinings</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_transportation">Transportations</string>
+    <string name="about">About</string>
+    <string name="title_activity_currentLectures">Current Lectures</string>
+    <string name="google_maps_key">AIzaSyDwnmfCpbyLfme2RoOHXiNdqdCQrUJ9b3E</string>
+    <string name="title_activity_about">About</string>
+    <string name="About_Text"><b>Bilkent.live\n\nContributors:\nAbdullah Wali\nErin Avllazagaj\n
+    Figali Taho\nSarjeel Yusuf\nWaqas Rehmani\n\nComputer Engineering Department\nBilkent University, Turkey</b></string>
+    <string name="title_activity_transportations">Transportations</string>
+    <string name="NavDrawerText">Lectures</string>
+</resources>

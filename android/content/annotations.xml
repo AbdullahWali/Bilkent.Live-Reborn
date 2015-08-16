@@ -1,0 +1,5 @@
+<root>
+    <item name='android.content.ContextWrapper android.content.res.AssetManager getAssets()'>
+        <annotation name='org.jetbrains.annotations.Nullable' />
+    </item>
+</root>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.figalitaho.bilkentlive.Lectures">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <!--<android.support.v4.widget.DrawerLayout-->
+    <!--android:id="@+id/drawer_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <TextView
+        android:id="@+id/find_lectures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Find lectures happening now" />
+
+    <ListView
+        android:id="@+id/list_View_For_Initial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="90dp"
+        android:fadingEdgeLength="5mm"
+        android:requiresFadingEdge="vertical"/>
+
+
+    <!--<fragment-->
+    <!--android:id="@+id/fragment_navigation_drawer"-->
+    <!--android:layout_width="280dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:layout_marginTop="56dp"-->
+    <!--app:layout="@layout/fragment_navigation_drawer"-->
+    <!--android:name="com.example.figalitaho.bilkentlive.NavigationDrawerFragment"-->
+    <!--tools:layout="@layout/fragment_navigation_drawer" />-->
+
+    <!--</android.support.v4.widget.DrawerLayout>-->
+
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="GO" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/background"
+    android:id="@+id/frameLayout">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="footerText"
+            android:id="@+id/lifeHacksText"
+            android:textColor="#ffdbd6d1"
+            android:layout_below="@+id/swipeViewPager"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:gravity="center" />
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipeViewPager"
+            android:layout_height="350dp"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true">>
+        </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
+
+
+
+

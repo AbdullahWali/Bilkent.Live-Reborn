@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.figalitaho.bilkentlive.FragmentDinings">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/ic_dinings"
+            android:id="@+id/diningsImage"
+            android:layout_marginTop="107dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="160dp"
+            android:id="@+id/lineDinings"
+            android:src="@drawable/linebottom"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="16dp"
+            android:id="@+id/fontDinings"
+            android:layout_below="@+id/lineDinings"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fontsdinings"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

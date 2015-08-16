@@ -1,0 +1,8 @@
+"Express Cafe"
+"DEFAULT"
+0800
+0
+0
+1830
+0
+0

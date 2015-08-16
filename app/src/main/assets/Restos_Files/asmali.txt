@@ -1,0 +1,8 @@
+"Asmali Konak Cafe"
+"DEFAULT"
+0900
+0900
+0900
+2100
+2000
+2000
