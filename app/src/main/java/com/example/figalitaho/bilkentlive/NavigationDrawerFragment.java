@@ -122,8 +122,18 @@ public class NavigationDrawerFragment extends Fragment implements MyRecycleViewA
 
     public static List getData(){
         List<SingleRowInRecycler> data = new ArrayList<>();
-        int[] icons = {R.drawable.ic_lectures, R.drawable.ic_events, R.drawable.ic_dinings, R.drawable.ic_transportations, R.drawable.ic_maps};
-        String[] titles = {"Lectures", "Events", "Dinings", "Transportation", "Maps"};
+
+        //=====================================================
+        //Commented Out until features implemented
+
+
+        //int[] icons = {R.drawable.ic_lectures, R.drawable.ic_events, R.drawable.ic_dinings, R.drawable.ic_transportations, R.drawable.ic_maps};
+        //String[] titles = {"Lectures", "Events", "Dinings", "Transportation", "Maps"};
+
+        //=========================================================================================
+
+        int[] icons = {R.drawable.ic_transportations, R.drawable.ic_dinings,  R.drawable.ic_maps};
+        String[] titles = {"Transportation", "Dinings",  "Maps"};
 
         for( int i = 0; i < titles.length && i < icons.length; i++)
         {

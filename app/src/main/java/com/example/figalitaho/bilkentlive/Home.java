@@ -49,7 +49,7 @@ public class Home extends FragmentActivity implements MenuListener, Animation.An
     }
 
     //==============================================================================================
-    //  Methods for the functionality and animation of Life Hacks
+    //  Methods for the functionality andpagerAdapter animation of Life Hacks
     //==============================================================================================
 
     public HacksGenerator createHacksGenerator(){
