@@ -249,34 +249,44 @@ public class NavigationDrawerFragment extends Fragment implements MyRecycleViewA
 
         int yCoordinate;
         if( position == 0) {
-//            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
-//            startActivity( new Intent( getActivity(), Lectures.class));
-            yCoordinate = -1;
-            activityCommander.lecturesClicked(yCoordinate);
-        }
-        else if ( position == 1) {
-//            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
-//            startActivity( new Intent( getActivity(), Events.class));
-            yCoordinate = -1;
-            activityCommander.eventsClicked(yCoordinate);
-        }
-        else if( position == 2) {
-//            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
-//            startActivity( new Intent( getActivity(), Dinings.class));
-            yCoordinate = -1;
-            activityCommander.diningsClicked(yCoordinate);
-        }
-        else if( position == 3) {
+
 //            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
 //            startActivity( new Intent( getActivity(), Transportations.class));
             yCoordinate = -1;
             activityCommander.transportationsClicked(yCoordinate);
+//
         }
-        else if( position == 4) {
+        else if ( position == 1) {
+
+            //            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
+//            startActivity( new Intent( getActivity(), Dinings.class));
+            yCoordinate = -1;
+            activityCommander.diningsClicked(yCoordinate);
+
+
+        }
+        else if( position == 2) {
 //            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
 //            startActivity( new Intent( getActivity(), Maps.class));
             yCoordinate = -1;
             activityCommander.mapsClicked(yCoordinate);
+
+
+        }
+        else if( position == 3) {
+
+//            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
+//            startActivity( new Intent( getActivity(), Lectures.class));
+            yCoordinate = -1;
+            activityCommander.lecturesClicked(yCoordinate);
+//
+        }
+        else if( position == 4) {
+
+//            SplitAnimation.startActivity(NavigationDrawerFragment.this, new Intent(NavigationDrawerFragment.this, Lectures.class), 0);
+//            startActivity( new Intent( getActivity(), Events.class));
+            yCoordinate = -1;
+            activityCommander.eventsClicked(yCoordinate);
         }
 
     }

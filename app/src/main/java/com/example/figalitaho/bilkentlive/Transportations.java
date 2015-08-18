@@ -21,6 +21,7 @@ public class Transportations extends ActionBarActivity implements NavigationDraw
         SplitAnimation.prepareAnimation(this);
         SplitAnimation.animate(this, 900);
 
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
         toolbar.bringToFront();
         setSupportActionBar(toolbar);
