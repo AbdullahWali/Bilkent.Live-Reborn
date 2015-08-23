@@ -203,11 +203,12 @@ public class Lectures extends ActionBarActivity implements AdapterView.OnItemCli
 
     @Override
     public void mapsClicked(int yCoordinate) {
-        Intent intent = new Intent(Lectures.this , Maps.class);
-        Bundle bundle = new Bundle();
-        bundle.putString( "location", "DEFAULT" );
-        intent.putExtras( bundle );
+//        Intent intent = new Intent(Transportations.this , Maps.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString( "location", "DEFAULT" );
+//        intent.putExtras( bundle );
 
-        SplitAnimation.startActivity(Lectures.this, intent);
+        SplitAnimation.startActivity(Lectures.this, new Intent(Lectures.this , LocationPick.class));
     }
+
 }

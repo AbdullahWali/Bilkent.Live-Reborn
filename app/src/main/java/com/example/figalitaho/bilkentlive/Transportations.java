@@ -90,12 +90,12 @@ public class Transportations extends ActionBarActivity implements NavigationDraw
 
     @Override
     public void mapsClicked(int yCoordinate) {
-        Intent intent = new Intent(Transportations.this , Maps.class);
-        Bundle bundle = new Bundle();
-        bundle.putString( "location", "DEFAULT" );
-        intent.putExtras( bundle );
+//        Intent intent = new Intent(Transportations.this , Maps.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString( "location", "DEFAULT" );
+//        intent.putExtras( bundle );
 
-        SplitAnimation.startActivity(Transportations.this, intent);
+        SplitAnimation.startActivity(Transportations.this, new Intent(Transportations.this , LocationPick.class));
     }
 
 }

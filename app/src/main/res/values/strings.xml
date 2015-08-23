@@ -25,4 +25,5 @@
     Figali Taho\nSarjeel Yusuf\nWaqas Rehmani\n\nComputer Engineering Department\nBilkent University, Turkey</b></string>
     <string name="title_activity_transportations">Transportations</string>
     <string name="NavDrawerText">Lectures</string>
+    <string name="title_activity_location_pick">Choose a Location</string>
 </resources>

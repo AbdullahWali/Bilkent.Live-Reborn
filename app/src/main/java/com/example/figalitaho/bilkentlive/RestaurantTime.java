@@ -1,7 +1,5 @@
 package com.example.figalitaho.bilkentlive;
 
-import android.util.Log;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -68,7 +66,7 @@ public class RestaurantTime {
 		String result = "";
 		for ( int i= 0 ; i < openTime.length; i++ ){
 			if ( openTime[i] == 0 && closeTime[i] == 0)
-				result += "Closed";
+				result += "Closed for Today\n";
 			else result += timeToText(openTime[i]) + " -- " + timeToText(closeTime[i]) + "\n";
 		}
 		return result;

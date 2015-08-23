@@ -92,17 +92,15 @@ public class Events extends ActionBarActivity  implements NavigationDrawerListen
             mainListView.setAdapter(mArrayAdapter);
 
 
-
-        }
-         catch( MalformedURLException e ){
+        } catch (MalformedURLException e) {
             e.printStackTrace();
-        }catch( Exception e ){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-    public static String getStringBuilder(){
+    public static String getStringBuilder() {
         return sb.toString();
     }
 
@@ -151,11 +149,11 @@ public class Events extends ActionBarActivity  implements NavigationDrawerListen
 
     @Override
     public void mapsClicked(int yCoordinate) {
-        Intent intent = new Intent(Events.this , Maps.class);
-        Bundle bundle = new Bundle();
-        bundle.putString( "location", "DEFAULT" );
-        intent.putExtras( bundle );
+//        Intent intent = new Intent(Transportations.this , Maps.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString( "location", "DEFAULT" );
+//        intent.putExtras( bundle );
 
-        SplitAnimation.startActivity(Events.this, intent);
+        SplitAnimation.startActivity(Events.this, new Intent(Events.this, LocationPick.class));
     }
 }

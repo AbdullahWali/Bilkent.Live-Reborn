@@ -142,12 +142,12 @@ public class Dinings extends ActionBarActivity implements NavigationDrawerListen
 
     @Override
     public void mapsClicked(int yCoordinate) {
-        Intent intent = new Intent(Dinings.this , Maps.class);
-        Bundle bundle = new Bundle();
-        bundle.putString( "location", "DEFAULT" );
-        intent.putExtras( bundle );
+//        Intent intent = new Intent(Transportations.this , Maps.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString( "location", "DEFAULT" );
+//        intent.putExtras( bundle );
 
-        SplitAnimation.startActivity(Dinings.this, intent, 0);
+        SplitAnimation.startActivity(Dinings.this, new Intent(Dinings.this , LocationPick.class));
     }
 
 }

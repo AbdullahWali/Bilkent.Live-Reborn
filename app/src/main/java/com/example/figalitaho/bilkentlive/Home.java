@@ -117,11 +117,11 @@ public class Home extends FragmentActivity implements MenuListener, Animation.An
 
     @Override
     public void mapsClicked() {
-        Intent intent = new Intent(Home.this , Maps.class);
-        Bundle bundle = new Bundle();
-        bundle.putString( "location", "DEFAULT" );
-        intent.putExtras( bundle );
-        SplitAnimation.startActivity(Home.this, intent);
+//        Intent intent = new Intent(Home.this , Maps.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString( "location", "DEFAULT" );
+//        intent.putExtras( bundle );
+        SplitAnimation.startActivity(Home.this,  new Intent(Home.this, LocationPick.class));
     }
 
 }

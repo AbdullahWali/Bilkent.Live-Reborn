@@ -1,0 +1,63 @@
+SA-Building
+ARL-Building
+SB-Building
+G-Building
+FA-Building
+FB-Building
+FC-Building
+FD-Building
+FF-Building
+LA-Building
+LB-Building
+LC-Building
+H-Building
+T-Building
+A-Building
+B-Building
+V-Building
+NA-Building
+NB-Building
+NC-Building
+EB-Building
+EA-Building
+EE-Building
+RA-Building
+RB-Building
+RC-Building
+RD-Building
+RE-Building
+ODN-Building
+P-Building
+D-Building
+C-Building
+Marmara-Dorm
+Marmara-Main
+Marmara-East
+Library
+Cafe-In
+Speed Cafe
+Kirac
+Starbucks
+Meteksan
+Sultan Cafe
+Sozeri Pide Hut
+Coffee Break
+Health Center
+54-Dormitory
+55-Dormitory
+60-Dormitory
+61-Dormitory
+64-Dormitory
+68-Dormitory
+69-Dormitory
+70-Dormitory
+71-Dormitory
+72-Dormitory
+73-Dormitory
+74-Dormitory
+75-Dormitory
+76-Dormitory
+90-Dormitory
+91-Dormitory
+92-Dormitory
+93-Dormitory

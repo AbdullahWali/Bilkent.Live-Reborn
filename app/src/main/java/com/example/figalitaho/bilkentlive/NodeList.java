@@ -38,9 +38,18 @@ public class NodeList {
     public Node findNode (String search){
         Node result = null;
         if (list != null){
+
+            //Search in tags first
             for(Node p: list){
                 if(search.equals(p.getTag())){
                     result = p;
+                }
+            }
+            //if not found, search in locations
+            if (result == null) {
+                for ( Node p: list) {
+                    if (search.equals(p.getData()))
+                        result = p;
                 }
             }
         }
