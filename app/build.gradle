@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        ReleaseSign {
+            keyAlias 'Bilkent.Live Key'
+            keyPassword 'FigaliFreaksOut@12'
+            storeFile file('/media/abdullah/Storage/Google Drive/Bilkent/Semester II/CS102/Bilkent.Live Key/Bilkent.LiveKey.jks')
+            storePassword 'FigaliFreaksOut@12'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
         applicationId "com.live.Bilkent"
         minSdkVersion 11
@@ -15,12 +22,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.ReleaseSign
         }
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile files('libs/opencsv-3.2.jar')
     compile files('libs/opencsv.jar')
     compile 'com.android.support:appcompat-v7:22.1.1'
