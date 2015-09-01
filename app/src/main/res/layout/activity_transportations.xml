@@ -158,7 +158,8 @@
             android:layout_marginTop="56dp"
             app:layout="@layout/fragment_navigation_drawer"
             android:name="com.example.figalitaho.bilkentlive.NavigationDrawerFragment"
-            tools:layout="@layout/fragment_navigation_drawer" />
+            tools:layout="@layout/fragment_navigation_drawer"
+            />
 
 
     </android.support.v4.widget.DrawerLayout>

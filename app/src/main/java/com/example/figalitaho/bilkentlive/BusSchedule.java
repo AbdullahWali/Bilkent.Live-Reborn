@@ -18,32 +18,32 @@ public class BusSchedule {
         // Non-Summer Schedule
         //===========================================================
 
-//        fromCityWeekendTime = new int[]{800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100 , 2200, 2300,0000,130};
-//        fromCityWeekdayTime = new int[] {750, 800, 840, 940, 1040, 1140, 1240, 1340, 1440, 1540, 1640, 1800, 1900, 2000, 2100, 2200, 2300, 2400 };
-//        toCityWeekendTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350};
-//        toCityWeekdayTime = new int[] { 720, 850, 950, 1050, 1150, 1250, 1350, 1450, 1550,1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
-//
-//
-//        fromCityWeekend = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus","Tunus"};
-//        fromCityWeekday = new String[] {"Tunus - Sihhiye", "Bahçeli", "Tunus - Sihhiye- Bahçeli", "Tunus - Sihhiye", "Tunus", "Tunus","Tunus - Sihhiye","Tunus","Tunus - Sihhiye","Tunus","Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus - Sihhiye","Tunus","Tunus", "Tunus" };
-//        toCityWeekend = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye","Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus"};
-//        toCityWeekday = new String[] { "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus"};
+        fromCityWeekendTime = new int[]{800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100 , 2200, 2300,0000,130};
+        fromCityWeekdayTime = new int[] {750, 800, 840, 940, 1040, 1140, 1240, 1340, 1440, 1540, 1640, 1800, 1900, 2000, 2100, 2200, 2300, 0000, 130 };//2400 };
+        toCityWeekendTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350};
+        toCityWeekdayTime = new int[] { 720, 850, 950, 1050, 1150, 1250, 1350, 1450, 1550,1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
+
+
+        fromCityWeekend = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", /*"Sihhiye"*/ "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus","Tunus"};
+        fromCityWeekday = new String[] {"Tunus - Sihhiye", "Bahçeli - Tandogan", "Tunus - Sihhiye- Bahçeli - Tandogan", "Tunus - Sihhiye", "Tunus", "Tunus","Tunus - Sihhiye","Tunus","Tunus - Sihhiye","Tunus","Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus - Sihhiye","Tunus","Tunus", "Tunus" , "Tunus+"};
+        toCityWeekend = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye","Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus"};
+        toCityWeekday = new String[] { "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus"};
         //=============================================================
 
 
         //=============================================================
         //Summer Schedule
         //=============================================================
-        fromCityWeekendTime = new int[]{800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100 , 2200, 2300,0000,130 };
-        fromCityWeekdayTime = new int[] {800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400 };
-        toCityWeekendTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
-        toCityWeekdayTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
-
-
-        fromCityWeekend = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus"};
-        fromCityWeekday = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", };
-        toCityWeekend = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus",  "Tunus"};
-        toCityWeekday = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus",  "Tunus" };
+//        fromCityWeekendTime = new int[]{800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100 , 2200, 2300,0000,130 };
+//        fromCityWeekdayTime = new int[] {800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400 };
+//        toCityWeekendTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
+//        toCityWeekdayTime = new int[] {850, 950, 1050, 1150, 1250, 1350, 1450, 1550, 1650, 1750, 1850, 1950, 2050, 2150, 2250,2350 };
+//
+//
+//        fromCityWeekend = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus"};
+//        fromCityWeekday = new String[] { "Tunus - Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", };
+//        toCityWeekend = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus",  "Tunus"};
+//        toCityWeekday = new String[] { "Sihhiye", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus" ,"Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus", "Tunus",  "Tunus" };
 
 
     }
