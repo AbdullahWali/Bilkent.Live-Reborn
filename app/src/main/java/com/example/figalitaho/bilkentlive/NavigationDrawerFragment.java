@@ -165,6 +165,7 @@ public class NavigationDrawerFragment extends Fragment implements MyRecycleViewA
                     saveToPreferences(getActivity(), KEY_USER_LEARNED_DRAWER, mUserLearnedDrawer+"");
                 }
                 getActivity().invalidateOptionsMenu();
+
             }
 
             @Override
