@@ -181,7 +181,7 @@ public class NavigationDrawerFragment extends Fragment implements MyRecycleViewA
             }
         };
         if( !mUserLearnedDrawer && !mFromSavedInstanceState){
-            mDrawerLayout.openDrawer(containerView);
+            mDrawerLayout.closeDrawer(containerView);
         }
         mDrawerLayout.setDrawerListener( mDrawerToggle);
 
