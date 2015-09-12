@@ -60,11 +60,12 @@ public class BusSchedule {
     }
 
     public String nextFromBilkent() {
-        Log.d ( BusSchedule.class.getSimpleName(), fromCityWeekendTime.length +" " + fromCityWeekdayTime.length + " " + toCityWeekendTime.length + " " + toCityWeekdayTime.length
-                + "\n" + fromCityWeekend.length + " " + fromCityWeekday.length + " " + toCityWeekend.length + " " +toCityWeekday.length );
 
+        // Get date in 2400 format
         SimpleDateFormat sdf = new SimpleDateFormat("HHmm");
         int now  = Integer.parseInt( sdf.format(new Date()) );
+
+
         if (isWeekend())
             for (int i = 0; i <toCityWeekendTime.length; i++ ) {
                 if ( now <toCityWeekendTime[i])
@@ -108,6 +109,8 @@ public class BusSchedule {
 
         SimpleDateFormat sdf = new SimpleDateFormat("HHmm");
         int now = Integer.parseInt(sdf.format(new Date()));
+
+
         if (isWeekend())
             for (int i = 0; i < toCityWeekendTime.length; i++) {
                 if ( now < toCityWeekendTime[i])
@@ -122,7 +125,7 @@ public class BusSchedule {
 
 
 
-    public String returnDifference( int time) {
+    protected static String returnDifference( int time) {
         SimpleDateFormat sdf = new SimpleDateFormat("HHmm");
         int now  = Integer.parseInt( sdf.format(new Date()) );
 
@@ -138,15 +141,14 @@ public class BusSchedule {
             mins = timeToText(Math.abs((60 - now % 100) + time % 100));
             hours = timeToText(Math.abs(((time / 100) - (now / 100)) - 1));
         }
-        Log.d("Progress","created hours" + hours);
-        String timeLeft = hours + ":" + mins;
 
-        Log.d("Progress","created timeleft" + timeLeft);
+
+        String timeLeft = hours + ":" + mins;
         return timeLeft;
 
     }
 
-    private String timeToText( int time ) {
+    protected static String timeToText( int time ) {
         String temp;
         temp = Integer.toString(time);
         if (temp.length() == 1 )  // This is just to avoid a time format like 7:0  instead of 07:00

@@ -39,12 +39,21 @@ public class Transportations extends ActionBarActivity implements NavigationDraw
         fromBilkentLocation = (TextView)findViewById(R.id.location_fromBilkent);
         toBilkentLocation = (TextView) findViewById(R.id.location_toBilkent);
 
+//        fromBilkentTime.setText(mBusSchedule.nextFromBilkent());
+//        toBilkentTime.setText(mBusSchedule.nextToBilkent());
+//        fromBilkentLocation.setText(mBusSchedule.nextToCityLocation());
+//        toBilkentLocation.setText(mBusSchedule.nextFromCityLocation());
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         fromBilkentTime.setText(mBusSchedule.nextFromBilkent());
         toBilkentTime.setText(mBusSchedule.nextToBilkent());
         fromBilkentLocation.setText(mBusSchedule.nextToCityLocation());
         toBilkentLocation.setText(mBusSchedule.nextFromCityLocation());
-    }
 
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
